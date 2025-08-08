@@ -5,10 +5,10 @@ const connectToDB = async()=>{
     
     try {
         const connetion = await mysql.createConnection({
-            host:'localhost',
-            user:'school',
-            password:'school@123',
-            database:'school'
+            host:'localhost'||process.env.DB_HOST,
+            user:'school'||process.env.DB_USER,
+            password:'school@123'||process.env.DB_PASSWORD,
+            database:'school'||process.env.DB_NAME
         })
         
         return connetion;
