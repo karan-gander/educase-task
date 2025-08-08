@@ -1,7 +1,6 @@
 # 📍 Educase Schools API
 
 A simple Node.js + MySQL API to fetch all schools from the database,  
-sort them based on proximity to a given location, and return the sorted list.
 
 ---
 
