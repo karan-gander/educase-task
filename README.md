@@ -18,10 +18,10 @@ sort them based on proximity to a given location, and return the sorted list.
 ## 📂 Project Structure
 
 src ->
-    Helpers -> for helper functions
-    controllers -> main logic,
-    routes -> routing 
-    db - for database 
+    - Helpers -> for helper functions
+    - controllers -> main logic,
+    - routes -> routing 
+    - db - for database 
 
 Main file is index.js
 
