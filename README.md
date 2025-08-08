@@ -1,4 +1,4 @@
-# 📍 Educase Schools API
+#  Educase Schools API
 
 A simple Node.js + MySQL API to fetch all schools from the database,  
 
